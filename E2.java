@@ -23,7 +23,7 @@ public class E2 {
         map.put("Tim",800);
         System.out.println(map.remove("Tom",2000));
         for (String s : map.keySet()) {
-            System.out.println(s+"所有员工");
+            System.out.println(s);
         }
         System.out.println("********************************");
         System.out.println("删除完Tom剩下的人数");
@@ -35,6 +35,14 @@ public class E2 {
         System.out.println("********************************");
 
         System.out.println("Jack的工资是"+"->"+map.get("Jack"));
+        map.put("Jack",1500);
+        System.out.println(map.get("Jack"));
+        for (String s : map.keySet()) {
+            if (map.get(s) < 1000) {
+                map.put(s,(int)(map.get(s)*1.2));
+
+            }
+        }System.out.println(map);
 
     }
 

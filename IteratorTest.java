@@ -19,7 +19,6 @@ public class IteratorTest {
         while (iterator.hasNext()) {
 //            String next =iterator.next();
             System.out.println(iterator.next());
-
         }
         TreeSet<String>set=new TreeSet<>();
         set.add("b");
