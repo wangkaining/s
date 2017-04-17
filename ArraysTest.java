@@ -1,6 +1,8 @@
 package Java1702;
 
+import java.security.Key;
 import java.util.Arrays;
+import java.util.TreeSet;
 
 /**
  * Created by 王凯宁 on 2017/4/12.
@@ -15,5 +17,6 @@ public class ArraysTest {
         System.out.println(Arrays.toString(Arrays.copyOfRange(strings,1 ,3)));
         Arrays .sort(strings);
         System.out.println(Arrays.toString(strings));
+        System.out.println(strings.length);
     }
 }
