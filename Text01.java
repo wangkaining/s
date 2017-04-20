@@ -15,6 +15,6 @@ public class Text01 {
 
     public static void main(String[] args) {
         Text01 text01 =new Text01();
-        System.out.println(text01.tuzi(9));
+        System.out.println(text01.tuzi(20));
     }
 }
